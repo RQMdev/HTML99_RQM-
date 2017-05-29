@@ -1,0 +1,127 @@
+html {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body, nav, .Title, h1, section, p, .Flexbox, h3 {
+    margin: 0 auto;
+}
+
+body, nav, .Title, section {
+    width: 1020px;
+}
+
+body, .SocialLink, .ArticleLink {
+    color: #7a7a7a;
+}
+
+body {
+    height: 1400px;
+    background-color: white;
+}
+
+nav, .Title, h2, .Catchphrase {
+    text-align: center;
+}
+
+nav {
+    height: 60px;
+}
+
+.Menu, .Title, .Subtitle, h3 {
+    text-transform: uppercase;
+}
+
+.Menu, .Title {
+    background-color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Menu, .Subtitle, h2 {
+    font-size: 18px;
+}
+
+.MenuLink, .Subtitle {
+    padding: 20px;
+}
+
+.MenuLink, .ArticleLink {
+    text-decoration: none;
+}
+
+.MenuLink {
+    color: #fff;
+    display: inline-block;
+}
+
+.MenuLink:hover, .Title, .SocialLink:hover {
+    color: #cfa205;
+}
+
+.Title {
+    height: 320px;
+}
+
+h1 {
+    font-size: 133px;
+    font-weight: normal;
+    padding: 50px;
+}
+
+.Subtitle, .Catchphrase, h3, p {
+    font-family: 'Bitter', serif;
+}
+
+.Social {
+    background-color: #e8e8e8;
+}
+
+.fa {
+    padding: 6px;
+}
+
+.Catchphrase, .Flexbox {
+    width: 900px;
+}
+
+.Catchphrase {
+    height: 90px;
+    margin: 0 auto 50px auto;
+    border-bottom: 3px solid #e8e8e8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Flexbox {
+    height: 675px;
+    display: flex;
+}
+
+.One, .Two, .Three {
+    width: 260px;
+    height: 675px;
+    overflow: hidden;
+    
+}
+
+.One, .Two {
+    margin-right: 60px;
+}
+
+img {
+    width: 260px;
+    height: 195px;
+}
+
+h3 {
+    color : black;
+    padding : 10px;
+}
+
+p {
+    font-size: 14px;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+}
+
